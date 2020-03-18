@@ -25,3 +25,6 @@ section,
 footer {
 	padding: 20px 0;
 }
+.search-style {
+	float: right;
+}

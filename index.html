@@ -6,12 +6,16 @@
 
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link rel="stylesheet" href="https://cdnjs,cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
 
-  <!-- My CSS --> 
+  <link rel="shortcut icon" href="img/Hybeast.png" type="image/x-icon">
+
+  <!-- My CSS -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <!--Let browser know website is optimized for mobile-->
@@ -25,33 +29,44 @@
     <nav class="black">
       <div class="container">
         <div class="nav-wrapper">
-          <a class="brand-logo">Hybeast</a>
           <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
           <b>
 
-            <ul class="right hide-on-med-and-down">
+            <ul class="left hide-on-med-and-down">
+              <li>
+                <a class="logo"
+                  style="font-size : 22px;font-family: 'Nosifer', cursive; margin-right: 15px; margin-left: 0px;">Hybeast</a>
+              </li>
               <li><a href="#home" class="waves-effect waves-light btn yellow  black-text">Home</a></li>
               <li><a class='dropdown-trigger btn yellow black-text' href='#' data-target='dropdown1'>Category</a></li>
 
               <ul id='dropdown1' class='dropdown-content'>
                 <li><a href="#!">Clothes</a></li>
                 <li><a href="#!">Pants</a></li>
-                <li class="divider" tabindex="-1"></li>
-                <li><a href="#!">three</a></li>
-                <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-                <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                <li><a href="#!">Accessories</a></li>
+                <li class="divider" tabindex="1"></li>
+                <li><a href="#!">New Arrival</a></li>
+                <li><a href="#!">Best Seller</a></li>
               </ul>
 
               <li><a href="#about" class="waves-effect waves-light btn yellow black-text">About</a></li>
               <li><a href="#contact" class="waves-effect waves-light btn yellow black-text">Contact</a></li>
               <a class="btn-floating pulse  black "><i class="material-icons">local_grocery_store</i></a>
-              <a class="btn-floating pulse  black "><i class="material-icons">search</i></a>
             </ul>
 
           </b>
 
         </div>
+      </div>
+
+      <div class="nav-wrapper search-style">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" align="right" required>
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          </div>
+        </form>
       </div>
     </nav>
   </div>
